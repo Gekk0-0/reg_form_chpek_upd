@@ -1,0 +1,107 @@
+.registration_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: rgb(195, 185, 112);
+    color: #4b1685;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.registration_form h1 {
+    color: #4b1685;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.registration_form label {
+    font-weight: bold;
+    margin: 10px 0 5px;
+    display: block;
+    color: #4b1685;
+}
+
+.registration_form input, 
+.registration_form select {
+    width: 100%;
+    padding: 12px;
+    margin: 5px 0 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+.registration_form input:focus, 
+.registration_form select:focus {
+    border-color: #4b1685;
+    outline: none;
+    box-shadow: 0 0 5px rgba(105, 16, 199, 0.5);
+}
+
+.registration_form select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #4b1685;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    background-color: #fff;
+    color: #4b1685;
+    appearance: none;
+    cursor: pointer;
+}
+
+.registration_form select:focus {
+    border-color: #4b1685;
+    box-shadow: 0 0 5px rgba(105, 16, 199, 0.5);
+    outline: none;
+    background-color: rgb(195, 185, 112);
+}
+
+.registration_form select:hover {
+    background-color: #a38dba;
+}
+
+.registration_form option {
+    background-color: #fff;
+    color: #4b1685;
+}
+
+.registration_form option:hover {
+    background-color: rgb(195, 185, 112);
+}
+
+button {
+    background: #4b1685;
+    color: rgb(195, 185, 112);
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 12px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #300e54;
+    color: rgb(134, 126, 65);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lucida Console", Courier, monospace;
+    background-color: rgb(134, 126, 65);
+    color: #4b1685;
+    line-height: 1.6;
+    padding: 20px;
+}
