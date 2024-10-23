@@ -13,8 +13,9 @@
 
 .registration_form h1 {
     color: #4b1685;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-align: center;
+    font-size: 1.5rem;
 }
 
 .registration_form label {
@@ -22,16 +23,17 @@
     margin: 10px 0 5px;
     display: block;
     color: #4b1685;
+    font-size: 0.85rem;
 }
 
 .registration_form input, 
 .registration_form select {
     width: 100%;
-    padding: 12px;
+    padding: 8px;
     margin: 5px 0 15px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
 }
 
 .registration_form input:focus, 
